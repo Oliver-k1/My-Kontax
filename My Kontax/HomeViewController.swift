@@ -16,11 +16,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         if let uid = UserDefaults.standard.value(forKey: "uid"){
             print(uid)
-        }else {
-            print("Value not found")
         }
-        
-
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
