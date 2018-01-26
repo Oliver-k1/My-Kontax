@@ -1,0 +1,6 @@
+framework module Pods_My_Kontax {
+  umbrella header "Pods-My Kontax-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041746702011D9900000200F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417466F2011D9900000200F /* AppDelegate.swift */; };
+		041746722011D9900000200F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041746712011D9900000200F /* ViewController.swift */; };
+		041746752011D9900000200F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041746732011D9900000200F /* Main.storyboard */; };
+		041746772011D9900000200F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041746762011D9900000200F /* Assets.xcassets */; };
+		0417467A2011D9900000200F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041746782011D9900000200F /* LaunchScreen.storyboard */; };
+		0417468C2011F77A0000200F /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417468B2011F77A0000200F /* TestTableViewController.swift */; };
+		0425C9F52018843B003A1687 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425C9F42018843B003A1687 /* RegisterViewController.swift */; };
+		0425C9F72018844E003A1687 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425C9F62018844E003A1687 /* LoginViewController.swift */; };
+		0445EE4A201740A7007FC51C /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445EE49201740A7007FC51C /* Contacts.swift */; };
+		04E0F5092018A3B8006BD111 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0F5082018A3B8006BD111 /* MenuTableViewController.swift */; };
+		04E7EE03201216D4002169FC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7EE02201216D4002169FC /* Person.swift */; };
+		04E7EE0520121C36002169FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7EE0420121C36002169FC /* HomeViewController.swift */; };
+		04E7EE0B201234DB002169FC /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7EE0A201234DB002169FC /* DetailTableViewController.swift */; };
+		3A6271C60FA9944DDB2D7985 /* Pods_My_Kontax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B91DA562A7472A68BF55DD2 /* Pods_My_Kontax.framework */; };
+		7CA2E7882019CD4F003DB504 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA2E7872019CD4F003DB504 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0417466C2011D9900000200F /* My Kontax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Kontax.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0417466F2011D9900000200F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		041746712011D9900000200F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041746742011D9900000200F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041746762011D9900000200F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041746792011D9900000200F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0417467B2011D9900000200F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0417468B2011F77A0000200F /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		0425C9F42018843B003A1687 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0425C9F62018844E003A1687 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0445EE49201740A7007FC51C /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		04E0F5082018A3B8006BD111 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		04E7EE02201216D4002169FC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		04E7EE0420121C36002169FC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04E7EE0A201234DB002169FC /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		4B91DA562A7472A68BF55DD2 /* Pods_My_Kontax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Kontax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA2E7872019CD4F003DB504 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		836814C871EFAAB2BA8094C3 /* Pods-My Kontax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Kontax.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Kontax/Pods-My Kontax.release.xcconfig"; sourceTree = "<group>"; };
+		C3330F36A594573EC0D42814 /* Pods-My Kontax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Kontax.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Kontax/Pods-My Kontax.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041746692011D9900000200F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6271C60FA9944DDB2D7985 /* Pods_My_Kontax.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041746632011D9900000200F = {
+			isa = PBXGroup;
+			children = (
+				0417466E2011D9900000200F /* My Kontax */,
+				0417466D2011D9900000200F /* Products */,
+				CCEF1CB1DFBC9A3067C07C4B /* Pods */,
+				8EA30E5EA3F6A0B289955C74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0417466D2011D9900000200F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0417466C2011D9900000200F /* My Kontax.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0417466E2011D9900000200F /* My Kontax */ = {
+			isa = PBXGroup;
+			children = (
+				7CA2E7872019CD4F003DB504 /* GoogleService-Info.plist */,
+				0417466F2011D9900000200F /* AppDelegate.swift */,
+				041746712011D9900000200F /* ViewController.swift */,
+				041746732011D9900000200F /* Main.storyboard */,
+				04E0F5082018A3B8006BD111 /* MenuTableViewController.swift */,
+				04E7EE0420121C36002169FC /* HomeViewController.swift */,
+				04E7EE0A201234DB002169FC /* DetailTableViewController.swift */,
+				041746762011D9900000200F /* Assets.xcassets */,
+				041746782011D9900000200F /* LaunchScreen.storyboard */,
+				0417467B2011D9900000200F /* Info.plist */,
+				0417468B2011F77A0000200F /* TestTableViewController.swift */,
+				04E7EE02201216D4002169FC /* Person.swift */,
+				0445EE49201740A7007FC51C /* Contacts.swift */,
+				0425C9F42018843B003A1687 /* RegisterViewController.swift */,
+				0425C9F62018844E003A1687 /* LoginViewController.swift */,
+			);
+			path = "My Kontax";
+			sourceTree = "<group>";
+		};
+		8EA30E5EA3F6A0B289955C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B91DA562A7472A68BF55DD2 /* Pods_My_Kontax.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCEF1CB1DFBC9A3067C07C4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3330F36A594573EC0D42814 /* Pods-My Kontax.debug.xcconfig */,
+				836814C871EFAAB2BA8094C3 /* Pods-My Kontax.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0417466B2011D9900000200F /* My Kontax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0417467E2011D9900000200F /* Build configuration list for PBXNativeTarget "My Kontax" */;
+			buildPhases = (
+				405EE1D1818EA054FCA66F1C /* [CP] Check Pods Manifest.lock */,
+				041746682011D9900000200F /* Sources */,
+				041746692011D9900000200F /* Frameworks */,
+				0417466A2011D9900000200F /* Resources */,
+				E4691059C0554425C054A87A /* [CP] Embed Pods Frameworks */,
+				04DB3816C2F4E69D4F6C7AD8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Kontax";
+			productName = "My Kontax";
+			productReference = 0417466C2011D9900000200F /* My Kontax.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041746642011D9900000200F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					0417466B2011D9900000200F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 041746672011D9900000200F /* Build configuration list for PBXProject "My Kontax" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041746632011D9900000200F;
+			productRefGroup = 0417466D2011D9900000200F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0417466B2011D9900000200F /* My Kontax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0417466A2011D9900000200F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0417467A2011D9900000200F /* LaunchScreen.storyboard in Resources */,
+				7CA2E7882019CD4F003DB504 /* GoogleService-Info.plist in Resources */,
+				041746772011D9900000200F /* Assets.xcassets in Resources */,
+				041746752011D9900000200F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04DB3816C2F4E69D4F6C7AD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Kontax/Pods-My Kontax-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		405EE1D1818EA054FCA66F1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Kontax-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4691059C0554425C054A87A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-My Kontax/Pods-My Kontax-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Kontax/Pods-My Kontax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041746682011D9900000200F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425C9F52018843B003A1687 /* RegisterViewController.swift in Sources */,
+				04E7EE0B201234DB002169FC /* DetailTableViewController.swift in Sources */,
+				04E0F5092018A3B8006BD111 /* MenuTableViewController.swift in Sources */,
+				0425C9F72018844E003A1687 /* LoginViewController.swift in Sources */,
+				04E7EE03201216D4002169FC /* Person.swift in Sources */,
+				041746722011D9900000200F /* ViewController.swift in Sources */,
+				041746702011D9900000200F /* AppDelegate.swift in Sources */,
+				0417468C2011F77A0000200F /* TestTableViewController.swift in Sources */,
+				04E7EE0520121C36002169FC /* HomeViewController.swift in Sources */,
+				0445EE4A201740A7007FC51C /* Contacts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		041746732011D9900000200F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041746742011D9900000200F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041746782011D9900000200F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041746792011D9900000200F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0417467C2011D9900000200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0417467D2011D9900000200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0417467F2011D9900000200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3330F36A594573EC0D42814 /* Pods-My Kontax.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GTKR7DQWG;
+				INFOPLIST_FILE = "My Kontax/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vodacom.em.My-Kontax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041746802011D9900000200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836814C871EFAAB2BA8094C3 /* Pods-My Kontax.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GTKR7DQWG;
+				INFOPLIST_FILE = "My Kontax/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vodacom.em.My-Kontax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041746672011D9900000200F /* Build configuration list for PBXProject "My Kontax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0417467C2011D9900000200F /* Debug */,
+				0417467D2011D9900000200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0417467E2011D9900000200F /* Build configuration list for PBXNativeTarget "My Kontax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0417467F2011D9900000200F /* Debug */,
+				041746802011D9900000200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041746642011D9900000200F /* Project object */;
+}
